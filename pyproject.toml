@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "zuendwinckelmesser"
+version = "0.1.0"
+description = "Erfasse den Zuendwinkel von aelteren Maybar Fahrzeugen mithilfe eines RaspberryPi"
+authors = ["Florian Glaser"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+"RPi.GPIO" = "^0.7.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pylint = "^2.12.2"
+flake8 = "^4.0.1"
+black = "^22.1.0"
+pre-commit = "^2.17.0"
+pytest-mock = "^3.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
